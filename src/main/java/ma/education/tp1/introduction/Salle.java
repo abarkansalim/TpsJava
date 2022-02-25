@@ -4,8 +4,8 @@ public class Salle {
     protected long id;
     protected String nom;
 
-//    public Salle() {
-//    }
+    public Salle() {
+    }
 
     public Salle(String nom) {
         this.nom = nom;

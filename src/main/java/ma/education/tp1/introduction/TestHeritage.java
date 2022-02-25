@@ -9,9 +9,8 @@ public class TestHeritage {
 
         Salle s5=new Laboratoire(2, "LABO", "CHIMIE");
         SalleCours s6= new SalleCours(2, "Salle 2", (byte) 20);
-        SalleCours s7= s5; //non, parceque les 2 classes fille sont differentes l'une d' autre
+        //SalleCours s7= s5; //non, parce que les 2 classes fille sont differentes l'une d' autre
         SalleCours s8=s6;
 
-        System.out.println(s7.id + " -- " + s7.nbPlaces + " -- " + s7.nom);
     }
 }

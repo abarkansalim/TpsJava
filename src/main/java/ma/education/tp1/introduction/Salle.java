@@ -1,8 +1,8 @@
 package ma.education.tp1.introduction;
 
 public class Salle {
-    long id;
-    String nom;
+    public long id;
+    public String nom;
 
 //    public Salle() {
 //    }

@@ -1,6 +1,5 @@
 package ma.education.tp6.annotations;
 
-import ma.education.tp5.annotations.CalculatriceMath;
 
 public class TestReflectionAnnotation {
     public static void main(String[] args) {

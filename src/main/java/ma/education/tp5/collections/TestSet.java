@@ -1,6 +1,5 @@
 package ma.education.tp5.collections;
 
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -29,9 +28,7 @@ public class TestSet {
         set3.add(9);
         set3.forEach(i-> System.out.println(i));
 
-        Comparator<Client> c = new CodeComparator();
-
-        Set<Client> set4 = new TreeSet<>(c);
+        Set<Client> set4 = new TreeSet<>((c1,c2) -> c1.code-c2.code);
         set4.add(new Client(1,"OMAR"));
         set4.add(new Client(3,"SAID"));
         set4.add(new Client(2,"HASSAN"));

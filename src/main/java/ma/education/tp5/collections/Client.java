@@ -1,6 +1,6 @@
 package ma.education.tp5.collections;
 
-public class Client implements Comparable{
+public class Client {
     Integer code;
     String name;
     public Client(Integer code, String name) {
@@ -24,11 +24,5 @@ public class Client implements Comparable{
     @Override
     public int hashCode() {
         return code;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        Client client = (Client) o;
-        return -client.code+this.code;
     }
 }
